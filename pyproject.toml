@@ -1,0 +1,5 @@
+[build-system]
+# Compatible with Python 3.7 (even setuptools 41 can build it), so the metadata
+# lives in setup.cfg.
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"

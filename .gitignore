@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging (build/ doubles as scratch space for scripts/benchmark.py)
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+*.egg-link
+pip-wheel-metadata/
+
+# Test / coverage artifacts
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# Type checking (mypy writes its cache where it runs)
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Tooling scratch (Reasonix session data, created while an agent works here)
+.reasonix/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
